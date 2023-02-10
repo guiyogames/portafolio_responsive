@@ -1,5 +1,12 @@
 /* Globar view */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #ebebeb;
   font-family: "Asap", sans-serif;
@@ -170,19 +177,25 @@ header {
   }
 
   .mob-nav {
-
+    margin-top: 27px;
     display: none;
     position: absolute;
 
   }
 
-  .navbutton {
+   .navbutton{
     display: block;
     background-color: coral;
-    padding: 15px 30px;
-    margin: -1px -34px 0px -81px;
+    height: 100px;
+    min-width:200px;
+    padding: 47px 30px;
+    margin: 0px -60px 0px -253px;
     text-align: center;
+   
+  }
 
+  .navbutton:hover{
+    background-color: rgb(80, 141, 255);
   }
 
   /* fin acción del menú burger */
