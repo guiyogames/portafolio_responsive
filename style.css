@@ -109,6 +109,7 @@ header {
 .mob-wrapper {
 
   display: none;
+  cursor: pointer;
 }
 
 
