@@ -113,10 +113,15 @@ header {
 
 }
 
+.about h1{
+  text-align: center;
+  color: rgb(208, 95, 95);
 
+}
 .about h3 {
   color: rgb(208, 95, 95);
 }
+
 
 
 /* tablet view */
